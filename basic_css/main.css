@@ -1,0 +1,33 @@
+.first {
+  font: italic normal 16px/140% Helvetica, Arial, sans-serif;
+}
+
+article h1 {
+  font-family: Georgia;
+}
+
+article p {
+  line-height: 150%;
+}
+
+article code {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.third {
+  font-family: Courier;
+  font-size: 18px;
+}
+ .third mark {
+   font-size: 12px;
+ }
+
+ .third strong {
+   font-size: 15px;
+ }
+
+ .third em {
+   font-size: 20px;
+   text-transform: uppercase;
+ }
