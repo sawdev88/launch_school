@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Forms</title>
+  </head>
+  <body>
+    <form class="form_1" action="" method="post">
+      <fieldset>
+        <dl>
+          <dt><label for="name">Enter your name:</label></dt>
+          <dd><input type="text" name="name" id="name" required></dd>
+          <dt><label for="email">Enter your email:</label></dt>
+          <dd><input type="email" name="email" id="email" required></dd>
+          <dt><label for="phone">Enter your phone number:</label></dt>
+          <dd><input type="tel" name="phone" id="phone" required></dd>
+          <dt><label for="text">Message:</label></dt>
+          <dd><textarea name="text" id="text" rows="8" cols="80" required></textarea></dd>
+        </dl>
+        <input type="submit" name="send" value="Send Message">
+        <input type="reset" name="clear" value="Clear">
+      </fieldset>
+    </form>
+
+    <br>
+
+    <form class="form_2" action="" method="post">
+      <fieldset>
+        <label for="search">Search for </label>
+        <input type="search" name="search" value="">
+        <label><input type="radio" name="filter" value="TV">TV</label>
+        <label><input type="radio" name="filter" value="Movies">Movies</label>
+        <label><input type="radio" name="filter" value="Music">Music</label>
+        <input type="button" name="search" value="Search">
+      </fieldset>
+    </form>
+
+    <br>
+
+    <form class="form_3" action="" method="post">
+      <fieldset>
+        <dl>
+          <dt><label for="movie">Movie</label></dt>
+          <dd>
+            <select name="movie">
+              <option value="Looper" selected>Looper</option>
+              <option value="Frozen">Frozen</option>
+              <option value="Tommy Boy">Tommy Boy</option>
+            </select>
+          </dd>
+          <dt><label for="rating">Rating</label></dt>
+          <dd><input type="range" name="rating" value="" min="1" max="5" step="1"></dd>
+        </dl>
+        <div>
+          <label for="fav"></label><input type="checkbox" name="fav" value="" checked>Add to favorites</label>
+        </div>
+        <input type="button" name="rate" value="Rate Movie">
+      </fieldset>
+    </form>
+
+  </body>
+</html>
