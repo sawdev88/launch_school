@@ -1,0 +1,10 @@
+.pos {
+  background: pink;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 400px;
+  padding: 30px 15px;
+  margin-left: -200px;
+  box-sizing: border-box;
+}
