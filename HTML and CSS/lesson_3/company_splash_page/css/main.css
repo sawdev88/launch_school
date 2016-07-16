@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../img/bg_body.gif);
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header img {
+  margin-top: 160px;
+  margin-bottom: 100px;
+}
+
+main, footer {
+  width: 60%;
+  margin: 0 auto;
+}
+
+main {
+  padding: 80px 100px 140px;
+  background: #fff;
+}
+
+main h2 {
+  font-size: 32px;
+  color: #333;
+  letter-spacing: 4px;
+}
+
+main h3 {
+  color: rgb(87, 159, 183);
+  font-size: 1.2em;
+}
+
+main h2:nth-of-type(2){
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+footer {
+  background: #ccc;
+  margin-bottom: 180px;
+}
+
+footer img {
+  padding: 24px 48px;
+}
