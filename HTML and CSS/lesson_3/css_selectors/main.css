@@ -1,0 +1,87 @@
+form {
+  width: 450px;
+}
+
+label {
+  display: block;
+}
+
+p {
+  font-size: 18px;
+}
+
+li {
+  border: 1px solid #0066cc;
+}
+
+main li {
+  border-bottom: 1px solid #0066cc;
+}
+
+article p {
+  font-family: sans-serif;
+}
+
+.subheading {
+  background-color: #e0e0e0;
+}
+
+#intro {
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+main ul li {
+  border-bottom-style: dotted;
+}
+
+header ul {
+  display: none;
+}
+
+header > ul {
+  display: block;
+}
+
+main li ~ li {
+  border-top: 1px solid #0066cc;
+}
+main ul li ~ li {
+  border-top-style: dotted;
+}
+
+h2 + p {
+  padding-top: 20px;
+}
+
+header li:hover ul {
+  display: block;
+}
+
+input[type="text"]:focus {
+  background: #fff9b5;
+}
+
+input[type="checkbox"]:checked + span {
+  font-weight: bold;
+}
+
+input[required] {
+  border: 1px solid #004f75;
+}
+
+input[type="text"] {
+  border: 1px solid #999999;
+}
+
+main li:first-child {
+  text-indent: 15px;
+}
+
+tr:nth-of-type(odd) td {
+  background: #d4f7fb;
+}
+
+td:nth-of-type(3n) {
+  text-align: center;
+}
