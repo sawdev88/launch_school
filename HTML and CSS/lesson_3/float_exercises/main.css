@@ -1,0 +1,35 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: pink;
+  box-sizing: border-box;
+}
+
+.container::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.one {
+  background: skyblue;
+  width: 70%;
+  float: left;
+}
+
+.two {
+  background: cyan;
+  width: 15%;
+  float: right;
+}
+
+footer {
+  clear: both;
+  background: gray;
+}
+
+.new_one {
+  background: orange;
+  float: left;
+  width: 15%;
+}
