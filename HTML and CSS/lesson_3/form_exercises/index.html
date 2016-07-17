@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>FORMS!</title>
+  </head>
+  <body>
+    <form action="" method="post">
+      <fieldset>
+        <dl>
+          <dt><label for="firstName">Enter your first name:</label></dt>
+          <dd><input type="text" name="firstName" value=""></dd>
+          <dt><label for="lastName">Enter your last name:</label></dt>
+          <dd><input type="text" name="lastName" value=""></dd>
+          <dt><label for="name">Enter your email:</label></dt>
+          <dd><input type="email" name="email" autocomplete="off" autocorrect="off" autocapitalize="off" value=""></dd>
+          <dt><label for="tel">Enter your phone:</label></dt>
+          <dd><input type="tel" name="tel" value=""></dd>
+          <dd>
+            <select class="phone_type" name="phone_type">
+              <option value="Home" selected>Home</option>
+              <option value="Business">Business</option>
+              <option value="Mobile">Mobile</option>
+            </select>
+          </dd>
+        </dl>
+        <input type="submit" name="send" value="Send">
+        <input type="reset" value="reset">
+      </fieldset>
+    </form>
+
+    <br>
+
+    <form action="" method="get">
+      <fieldset>
+        <label for="Categories">Categories</label>
+        <br>
+        <select class="cat" name="cat">
+          <option value="Core">Core</option>
+          <option value="Plugins and Libraries">Plugins and Libraries</option>
+          <option value="Conventions">Conventions</option>
+          <option value="Reviews">Reviews</option>
+          <option value="Opinion">Opinion</option>
+          <option value="People">People</option>
+        </select>
+        <br>
+        <label for="Tags">Tags</label>
+        <br>
+        <select class="tag" name="tag" multiple>
+          <option value="HTML">HTML</option>
+          <option value="CSS">CSS</option>
+          <option value="Javascript">Javascript</option>
+          <option value="Ruby">Ruby</option>
+          <option value="Rails">Rails</option>
+          <option value="Python">Python</option>
+          <option value="Django">Django</option>
+        </select>
+        <br>
+        <input type="submit" value="filter">
+        <input type="reset" value="reset">
+      </fieldset>
+    </form>
+  </body>
+</html>
