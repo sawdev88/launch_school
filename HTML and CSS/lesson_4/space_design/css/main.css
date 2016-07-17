@@ -1,0 +1,102 @@
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  background: url('../img/bg_body.gif');
+  text-align: center;
+}
+
+header img {
+  margin: 130px 0 100px;
+}
+
+header nav ul {
+  list-style: none;
+  padding-bottom: 48px
+}
+
+header nav li {
+  text-transform: uppercase;
+  display: inline;
+}
+
+header nav a {
+  padding: 8px 45px;
+  color: #cacaca;
+  font-size: 26px;
+  text-decoration: none;
+}
+
+nav .selected {
+  color: #6db9ff;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+main {
+  padding: 120px 210px 0;
+  text-align: center;
+}
+
+main h2 {
+  font-size: 36px;
+  margin-bottom: 42px;
+}
+
+main h3 {
+  margin-bottom: 24px;
+  color: #3e59b2;
+  font-size: 24px;
+}
+
+main p {
+  font-size: 20px;
+  color: #45494d;
+  margin-bottom: 148px;
+}
+
+main h2:nth-of-type(2){
+  margin-bottom: 58px;
+}
+
+main h2:before, main h2:after {
+  display: inline-block;
+  padding: 0 24px;
+  font-size: 22px;
+  vertical-align: 5px;
+  content: "\2022";
+}
+
+/*PROJECTS PAGE*/
+
+.projects img {
+  margin-bottom: 48px;
+}
+
+/*TEAM PAGE*/
+
+figure {
+  display: inline-block;
+  margin: 0 30px 240px;
+}
+
+/*FOOTER*/
+
+footer {
+  background: #e7e7e7;
+  text-align: center;
+  padding: 148px 320px 32px;
+}
+
+footer p {
+  color: #b2b2b2;
+  line-height: 1.8em;
+}
+
+.social img {
+  padding: 46px 62px;
+}
