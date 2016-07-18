@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: #000;
+}
+
+body {
+  background: #333;
+  margin: 32px auto;
+  min-width: 600px;
+  max-width: 1000px;
+  padding: 48px;
+  color: #fff;
+}
+
+h1 {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+figure img {
+  border: 15px solid #fff;
+}
+
+figure {
+  margin-bottom: 32px;
+}
+
+img {
+  border: 5px solid #fff;
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  padding: 0;
+  margin: 0 -16px;
+  overflow: hidden;
+}
+
+li {
+  display: inline-block;
+  width: 25%;
+  padding: 16px;
+  float: left;
+}
