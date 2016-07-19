@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: yellow;
+  padding: 0 40px 40px;
+}
+
+header {
+  background: #047ec1;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  font-size: 28px;
+  color: #fff;
+  padding: 32px 28px;
+  width: 900px;
+  margin: 0 auto;
+}
+
+h2 {
+  padding-left: 8px;
+  padding-bottom: 32px;
+}
+
+main {
+  padding: 32px 28px;
+  background: #ececec;
+  font-size: 24px;
+  overflow: hidden;
+  width: 900px;
+  margin: 40px auto;
+}
+
+figure {
+  float: left;
+  width: 23%;
+  margin: 0 1%;
+  margin-bottom: 16px;
+  background: #fff;
+  padding: 16px;
+}
+
+figure img {
+  width: auto;
+  height: 140px;
+  margin-left: 28px;
+  text-align: center;
+}
+
+.fourth img {
+  margin-left: 0;
+}
+
+h3 {
+  margin-top: 8px;
+  font-size: 20px;
+}
+
+p {
+  font-size: 14px;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input:checked + figure img {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  width: 400px;
+  height: auto;
+  margin-left: -200px;
+  z-index: 2;
+}
+
+input:checked + figure::before {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  content: "";
+  background: rgba(0, 0, 0, 0.4);
+}
